@@ -1,0 +1,142 @@
+#css-zen-garden {
+     /*background-color: #CDE0C9; background */
+    background-image: linear-gradient(#CDE0C9, black);
+    font-family: "Lucida Console";
+    font-size: larger;
+    p {
+        font-family: 'Courier New', monospace;
+    }
+
+    a {
+        color: #4C787E;
+    }
+    a:hover {
+        color: #E41B17;
+    }
+}
+
+.intro {
+    h1,h2{
+        padding: 15px;
+        margin: 15px;
+        text-align: center;
+        font-family: "Courier New";
+        text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    }
+    header {
+        padding: 30px;
+        margin: 25px 70px;
+        border-radius: 30px;
+        background-image: url("images/IMG_0001.JPG");
+    }
+    h2 {
+        color: #045F5F;
+        font-size: 10mm;
+    }
+    h1 {
+        color: #033E3E;
+        font-size: 15mm;
+    }
+}
+
+.summary, .preamble {
+    padding: 25px;
+    margin: 25px 70px;
+    border-radius: 80px;
+    box-shadow: 3px 3px 3px 3px rgba(38, 38, 38, 0.5);
+}
+
+.explanation, .participation, .benefits, .requirements {
+    padding: 25px;
+    margin: 25px 70px;
+    border-radius: 80px;
+    box-shadow: 3px 3px 3px 3px rgba(38, 38, 38, 0.5);
+    h3 {
+        font-family: "Courier New";
+        font-variant: small-caps;
+        font-size: 8mm;
+    }
+}
+
+.summary {
+    background-color: #f2f2f2;
+}
+
+.preamble {
+    background-color: #e6e6e6;
+    h3 {
+        font-family: "Courier New";
+        font-variant: small-caps;
+        font-size: 8mm;
+    }
+}
+
+.explanation {
+    background-color: #d9d9d9;
+}
+
+.participation {
+    background-color: #cccccc;
+}
+
+.benefits { 
+    background-color: #bfbfbf;
+}
+
+.requirements {
+    background-color: #b3b3b3;
+}
+
+.design-selection, .design-archives, .zen-resources {
+    padding: 0px;
+    margin: 25px 70px;
+    ul{
+        display: inline-block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+    }
+      
+    li {
+        border-right: 1px solid #bbb;
+        float: left;
+    }
+      
+    li a{
+        display: inline-block;
+        flex-direction: column;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    h3 {
+        font-family: "Courier New";
+        font-variant: small-caps;
+        font-size: 8mm;
+        color: #347235;
+    }
+      
+    li a:hover {
+        background-color: #111;
+    }
+}
+
+footer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #e6e6e6;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 90px;
+    box-shadow: 3px 3px 3px 3px rgba(38, 38, 38, 0.5);
+    a {
+        font-size: 4mm;
+        display: block;
+        flex-direction: row;
+        padding: 0px;
+        margin: 20px 0px 20px 0px;
+    }
+}

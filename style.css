@@ -1,0 +1,137 @@
+#css-zen-garden {
+  /*background-color: #CDE0C9; background */
+  background-image: linear-gradient(#CDE0C9, black);
+  font-family: "Lucida Console";
+  font-size: larger;
+}
+#css-zen-garden p {
+  font-family: "Courier New", monospace;
+}
+#css-zen-garden a {
+  color: #4C787E;
+}
+#css-zen-garden a:hover {
+  color: #E41B17;
+}
+
+.intro h1, .intro h2 {
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  font-family: "Courier New";
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+.intro header {
+  padding: 30px;
+  margin: 25px 70px;
+  border-radius: 30px;
+  background-image: url("images/IMG_0001.JPG");
+}
+.intro h2 {
+  color: #045F5F;
+  font-size: 10mm;
+}
+.intro h1 {
+  color: #033E3E;
+  font-size: 15mm;
+}
+
+.summary, .preamble {
+  padding: 25px;
+  margin: 25px 70px;
+  border-radius: 80px;
+  box-shadow: 3px 3px 3px 3px rgba(38, 38, 38, 0.5);
+}
+
+.explanation, .participation, .benefits, .requirements {
+  padding: 25px;
+  margin: 25px 70px;
+  border-radius: 80px;
+  box-shadow: 3px 3px 3px 3px rgba(38, 38, 38, 0.5);
+}
+.explanation h3, .participation h3, .benefits h3, .requirements h3 {
+  font-family: "Courier New";
+  font-variant: small-caps;
+  font-size: 8mm;
+}
+
+.summary {
+  background-color: #f2f2f2;
+}
+
+.preamble {
+  background-color: #e6e6e6;
+}
+.preamble h3 {
+  font-family: "Courier New";
+  font-variant: small-caps;
+  font-size: 8mm;
+}
+
+.explanation {
+  background-color: #d9d9d9;
+}
+
+.participation {
+  background-color: #cccccc;
+}
+
+.benefits {
+  background-color: #bfbfbf;
+}
+
+.requirements {
+  background-color: #b3b3b3;
+}
+
+.design-selection, .design-archives, .zen-resources {
+  padding: 0px;
+  margin: 25px 70px;
+}
+.design-selection ul, .design-archives ul, .zen-resources ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+.design-selection li, .design-archives li, .zen-resources li {
+  border-right: 1px solid #bbb;
+  float: left;
+}
+.design-selection li a, .design-archives li a, .zen-resources li a {
+  display: inline-block;
+  flex-direction: column;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.design-selection h3, .design-archives h3, .zen-resources h3 {
+  font-family: "Courier New";
+  font-variant: small-caps;
+  font-size: 8mm;
+  color: #347235;
+}
+.design-selection li a:hover, .design-archives li a:hover, .zen-resources li a:hover {
+  background-color: #111;
+}
+
+footer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #e6e6e6;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 90px;
+  box-shadow: 3px 3px 3px 3px rgba(38, 38, 38, 0.5);
+}
+footer a {
+  font-size: 4mm;
+  display: block;
+  flex-direction: row;
+  padding: 0px;
+  margin: 20px 0px 20px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
